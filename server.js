@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-var port = process.env.port;
+var port = process.env.PORT;
 if (port==null) {port= 3000};
 
 app.listen(port, function(){
