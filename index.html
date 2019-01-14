@@ -7,11 +7,11 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <!-- Latest compiled and minified CSS -->
-    <!--
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    -->
+    <script src="./index.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- DEVELOPMENT ONLY -->
+    <!-- <meta http-equiv="refresh" content="3" > -->
+<!-- DEVELOPMENT ONLY  -->
   </head>
 
   <body>
@@ -35,12 +35,7 @@
 
       <div class="cards-flex-container">
         <div class="card">
-          <img
-            src="cataract.png
-            "
-            alt="Avatar"
-            
-          />
+          <img src="cataract.png" alt="Avatar" />
           <div class="container">
             <p>Cataract</p>
             <span
@@ -51,7 +46,7 @@
         </div>
 
         <div class="card">
-          <img src="python_game.png" alt="Avatar" />
+          <img src="./python_game.png" alt="Avatar" />
           <div class="container">
             <p>Box Blaster</p>
             <span
@@ -62,12 +57,50 @@
         </div>
 
         <div class="card">
-          <img
-            src="quote_generator.png
-            "
-            alt="Avatar"
+          <img src="quote_generator.png" alt="Avatar" />
+          <div class="container">
+            <p>Quote Generator</p>
+            <span
+              ><p class="card-lang">JavaScript</p>
+              <button id="card-info">More Info</button></span
+            >
+          </div>
+        </div>
+
+        <div class="card more-cards">
+            <div class="smartphone">
+                <div class="content">
+                    <img src="News_Filter_App.png" alt="Avatar" />
+                </div>
+              </div>
           
-          />
+          <div class="container">
+            <p>News Filter App</p>
+            <span
+              ><p class="card-lang">Java</p>
+              <button id="card-info">More Info</button></span
+            >
+          </div>
+        </div>
+
+        <div class="card more-cards">
+            <div class="smartphone">
+                <div class="content">
+                    <img src="News_and_Utility App.png" alt="Avatar" />
+                </div>
+              </div>
+          
+          <div class="container">
+            <p>News & Utility App</p>
+            <span
+              ><p class="card-lang">Swift</p>
+              <button id="card-info">More Info</button></span
+            >
+          </div>
+        </div>
+
+        <div class="card more-cards">
+          <img src="quote_generator.png" alt="Avatar" />
           <div class="container">
             <p>Quote Generator</p>
             <span
@@ -77,7 +110,7 @@
           </div>
         </div>
       </div>
-      <button id="show-more-projects">Show More</button>
+      <button onclick="showMore()" id="show-more-projects">Show More</button>
     </div>
     <div id="contact">
       <h2>Contact</h2>
@@ -87,7 +120,25 @@
         <a href="#" class="fa fa-facebook-square fa-5x"></a>
         <a class="fa fa-github fa-5x"></a>
       </div>
-    </div>
+    
+    
+    <p>Or send me a message directly</p>
+    
+    <form>
+      Name:<br>
+      <input type="text" name="firstname">
+      <br>
+      Email:<br>
+      <input type="email" name="email" required>
+      <br>
+      Message:<br>
+      <textarea rows="4" cols="40" required></textarea>
+      <br><br>
+      <input type="submit" value="Submit">
+    </form> 
+
+  </div>
+
     <div id="test"></div>
     <footer><small>&copy; 2019 Josh Shaffer</small></footer>
   </body>
