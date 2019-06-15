@@ -86,7 +86,7 @@ div#projects {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   /* transition: 0.3s; */
   width: 30%;
-  height: 40vh;
+  height: 48vh;
   position: relative;
   background: green;
 }
@@ -133,6 +133,7 @@ div#projects {
   margin: 0;
   padding: 8px;
   font-size: 18px;
+  height:10%;
 }
 
 .container > button {
@@ -173,49 +174,18 @@ span > button:hover {
 .smartphone {
   position: absolute;
   width: 50%;
-  height: 65%;
+  height: 100%;
   margin: auto;
-  border: 16px black solid;
   transform: translateX(-50%);
   left: 50%;
-  border-top-width: 45px;
-  border-bottom-width: 38px;
-  border-radius: 36px;
 }
 
-/* The horizontal line on the top of the device */
-.smartphone:before {
-  content: '';
-  display: block;
-  width: 60px;
-  height: 5px;
-  position: absolute;
-  top: -22px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: #333;
-  border-radius: 10px;
-}
-
-/* The circle on the bottom of the device */
-/* .smartphone:after {
-  content: '';
-  display: block;
-  width: 35px;
-  height: 35px;
-  position: absolute;
-  left: 50%;
-  bottom: -65px;
-  transform: translate(-50%, -50%);
-  background: #333;
-  border-radius: 50%;
-} */
 
 /* The screen (or content) of the device */
 .smartphone .content {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 88%;
   background: white;
 }
 
