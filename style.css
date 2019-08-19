@@ -23,8 +23,12 @@ nav .my-nav {
 
 .about {
   top: 0;
+  color: #ffffff;
   background: #e0ebe8;
-  /* background: #eeeeee; */
+  background-image: url("matt-hardy-unsplash.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
   min-height: 100vh;
   padding-top: 15vh;
   /* margin: 0;  */
@@ -71,6 +75,7 @@ nav ul li a:hover {
 div#projects {
   position: relative;
   min-height: 100vh;
+  padding-top: 25px;
   /* background-color: none; */
 }
 
@@ -292,7 +297,7 @@ input[type=submit]:hover {
 
 @media screen and (max-width: 1000px) {
   body {
-    background: yellow;
+    /* background: yellow; */
   }
   nav ul {
     text-align: center;
@@ -304,8 +309,13 @@ input[type=submit]:hover {
   .card {
     width: 80%;
   }
+
+  .card-lang {
+    display: none;
+  }
 }
 
 #card-info {
   display: none;
 }
+
