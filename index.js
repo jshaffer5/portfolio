@@ -14,7 +14,7 @@ function showMore() {
 
   $( document ).ready(function() {
     if ($(".more-cards").css('display') != "block"){
-      $(".more-cards").slideDown("slow", function() {
+      $(".more-cards").slideDown("fast", function() {
           console.log("slideDown() called, display is set to: ", $(this).css('display'));
           // $(this).attr("style", "display:block");
           $("#show-more-projects").text("Show Less");
