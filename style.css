@@ -100,7 +100,7 @@ div#projects {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.card > img {
+.card #project-img {
   height: 85%;
   width: 100%;
 }
@@ -190,7 +190,7 @@ span > button:hover {
   background: white;
 }
 
-.smartphone .content > img {
+.smartphone .content #project-smartphone-img {
   height: 100%;
   width: 100%;
 }

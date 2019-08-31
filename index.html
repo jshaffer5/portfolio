@@ -60,37 +60,45 @@
     <div id="projects">
       <h2>Recent Projects</h2>
 
-      <!-- CARDS -->
+      <!--****CARDS****-->
       <div class="cards-flex-container">
+
+        <!-- ElevateConsulting -->
         <div class="card">
-          <img src="news-filter-website.png" alt="Avatar" />
+          <a href="https://elevateinvestingconsulting.com" target="_blank" style="width:100%;height:100%">
+            <img id="project-img" src="intro-screenshot.png" alt="ElevateInvestingConsulting.com">
+          </a>
+          <div class="project-name-container">
+            <p>Elevate</p>
+            <span>
+                <p class="card-lang">html, css, JavaScript</p>
+                <button id="card-info">More Info</button>
+            </span>
+          </div>
+        </div>
+
+        <!-- NewsFilters Site -->
+        <div class="card">
+          <a href="https://newsfilters.herokuapp.com" target="_blank" style="width:100%;height:100%">
+            <img id="project-img" src="news-filter-website.png" alt="Avatar" />
+          </a>
           <div class="project-name-container">
             <p>News List</p>
             <span
-              ><p class="card-lang">JavaScript, html, css</p>
+              ><p class="card-lang">PHP, html, css, JavaScript</p>
               <button id="card-info">More Info</button></span
             >
           </div>
         </div>
 
-        <div class="card">
-          <img src="Intro-PHP.png" alt="Avatar" />
-          <div class="project-name-container">
-            <p>PHP Tutorial</p>
-            <span
-              ><p class="card-lang">JavaScript, html, css</p>
-              <button id="card-info">More Info</button></span
-            >
-          </div>
-        </div>
 
+        <!-- News & Utility App -->
         <div class="card">
           <div class="smartphone">
             <div class="content">
-              <img src="News_and_Utility App.png" alt="Avatar" />
+              <img id="project-smartphone-img" src="News_and_Utility App.png" alt="Avatar" />
             </div>
           </div>
-
           <div class="project-name-container">
             <p>News & Utility App</p>
             <span
@@ -100,20 +108,23 @@
           </div>
         </div>
 
-        <!-- MORE CARDS -->
-        <!-- <div class="card more-cards">
-          <img src="cataract.png" alt="Avatar" />
-          <div class="project-name-container">
-            <p>Cataract</p>
-            <span
-              ><p class="card-lang">C++</p>
-              <button id="card-info">More Info</button></span
-            >
-          </div>
-        </div> -->
+        <!-- MORE CARDS SECTION -->
 
+        <!-- PHP Tutorial-->
         <div class="card more-cards">
-          <img src="./python_game.png" alt="Avatar" />
+            <img id="project-img" src="Intro-PHP.png" alt="Avatar" />
+            <div class="project-name-container">
+              <p>PHP Tutorial</p>
+              <span
+                ><p class="card-lang">JavaScript, html, css</p>
+                <button id="card-info">More Info</button></span
+              >
+            </div>
+          </div>
+
+        <!-- Box Blaster Game -->
+        <div class="card more-cards">
+          <img id="project-img" src="./python_game.png" alt="Avatar" />
           <div class="project-name-container">
             <p>Box Blaster</p>
             <span
@@ -123,10 +134,11 @@
           </div>
         </div>
 
+        <!-- NewsFilter App -->
         <div class="card more-cards">
           <div class="smartphone">
             <div class="content">
-              <img src="News_Filter_App.png" alt="Avatar" />
+              <img id="project-smartphone-img" src="News_Filter_App.png" alt="Avatar" />
             </div>
           </div>
 
@@ -139,8 +151,19 @@
           </div>
         </div>
 
-        <div class="card more-cards">
-          <img src="quote_generator.png" alt="Avatar" />
+         <!-- <div class="card more-cards">
+          <img id="project-img" src="cataract.png" alt="Avatar" />
+          <div class="project-name-container">
+            <p>Cataract</p>
+            <span
+              ><p class="card-lang">C++</p>
+              <button id="card-info">More Info</button></span
+            >
+          </div>
+        </div> -->
+
+        <!-- <div class="card more-cards">
+          <img id="project-img" src="quote_generator.png" alt="Avatar" />
           <div class="project-name-container">
             <p>Quote Generator</p>
             <span
@@ -148,10 +171,11 @@
               <button id="card-info">More Info</button></span
             >
           </div>
-        </div>
+        </div> -->
       </div>
       <button onclick="showMore()" id="show-more-projects">Show More</button>
     </div>
+    <!--****END CARDS****-->
     <div id="contact">
       <h2>Contact</h2>
 
